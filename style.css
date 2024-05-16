@@ -1,0 +1,86 @@
+.game{
+    width: 450px;
+    height: 560px;
+    color: white;
+    font-family: 'Press Start 2P', cursive; 
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;    
+}
+
+.title{
+    background: #2596be;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+span{
+    color: #f3b20e ;
+    font-weight: 200px;
+}
+
+button{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius:5px;
+    font-family: 'Press Start 2P', cursive;
+    margin:auto;
+    border-radius:5px;
+    background: #2596be;
+    transition-duration: 2.0s;
+    cursor: pointer;
+    text-align: center;
+    color:#f3b20e;
+}
+.rest{
+    width: 445px;
+    height: 50px;
+    margin: 3px;
+}
+
+.rest:hover{
+    background:#873e23;
+    color: white;
+}
+
+.square{
+    width:140px;
+    height:140px;  
+    background: #2596be;
+    float: left;
+    margin: 5px;
+    font: size 50px;
+    text-align: center;
+    line-height: 120px;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.square:hover{
+    background:#873e23;
+    cursor: pointer;
+}
+
+.footer{
+    background: #2596be;
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer .credit{
+    font-family: 'Press Start 2P', cursive; 
+    font-weight: normal;
+    color:#fff;
+    margin-top: 5px;
+    font-size: 20px; 
+}
+
+.footer .credit a{
+    color:var(--main-color);
+    text-decoration: none;
+}
